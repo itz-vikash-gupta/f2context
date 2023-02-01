@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 module Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>F2 module Test</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="flex-container">
+        <img onclick="show()" id="img1"src="image.jpg" alt="">
+        <img onclick="showOutput()"id="img2"src="image.jpg" alt="">
+        <img onclick="function2()" id="img3"src="image.jpg" alt="">
+        <img onclick="createRandom()" id="img4"src="image.jpg" alt="">
+        </div>
+
+        <!-- user form -->
+        <div class="fform">
+        <form id="userForm" class="userDataForm">
+        <div class="form">
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" id="fname" required><br><br>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="eml" required><br><br>
+            <label for="username"><b>Username</b></label>
+            <input type="username" placeholder="Enter Username" name="username" id="username" required><br><br>
+        </div>
+        </form>
+    </div>
+        <!-- user details -->
+        <div>
+            <p id="userDetail_name">
+
+            </p>
+            <p id="userDetail_username">
+            </p>
+        </div>
+            
+                <img onclick="clickDice()" id="dice_image" src="https://www.shutterstock.com/image-vector/dice-cube-casino-game-black-260nw-1663698937.jpg" alt="dice">
+            <!-- </div> -->
+        <!-- </div> -->
+        <h1 id="randomNumber"> </h1>
+        <h1 id="sum"></h1>
+        <h2 id="badLuck"></h2>
+        <div id="randomText"></div>
+        <img id="congratulationImage" src="https://www.shutterstock.com/image-vector/human-hands-clapping-people-crowd-600w-1856567878.jpg">
+        <script src="index.js"></script>
+    </body>
+    </html> 
+</body>
+</html>
